@@ -13,17 +13,17 @@ li {
 }
 
 a {
-	color: white;
+	color: #E1DCD9;
 }
 
 a:hover, a:focus {
-	color: white;
+	color: #8f8681;
 	text-decoration: none;
 }
 
 
 h1 {
-	color: #1C3334;
+	color: #E1DCD9;
 	text-align: center;
 	margin-top: 4%;
 	font-size: 412.5%;
@@ -33,14 +33,14 @@ h1 {
 
 h1 > small {
 	display: block;
-	color: #1C3334;
+	color: #E1DCD9;
 	font-size: 50%;
 }
 
 h2 {
 	font-size: 245%;
 	margin-top: 140px;
-	color: #1C3334;
+	color: #5F6670;
 }
 
 h2:after {
@@ -58,9 +58,12 @@ h4 {
 }
 
 h6 {
-	color: #2E151B;
+	color: #5F6670;
 }
 
+.gray {
+	color: #E1DCD9;
+}
 
 h1 .logo {
 	font-size: 150%;
@@ -72,12 +75,20 @@ h1 .logo {
 /* ELEMENTS */
 .noir {
 	display: block;
-	background-color: black;
+	background-color: #A67F78;
 	padding: 18px;
-	border: 3px solid white;
+	border: 3px solid #E1DCD9;
 	opacity: 1;
 	width: 175px;
 	text-align: center;
+}
+
+a.noir.github{
+	color: #E1DCD9;
+}
+
+a.noir.linkedin{
+	color: #E1DCD9;
 }
 
 .vertical-list li {
@@ -107,11 +118,11 @@ h1 .logo {
 }
 
 .overlay {
-	background-color: #FCBACB;
+	background-color: #5F6670;
 	height: 100%;
 	width: 100%;
 	padding-bottom: 80px;
-	opacity: 0.7;
+	opacity: 0.85;
 }
 
 #home {
@@ -145,7 +156,7 @@ h1 .logo {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: black;
+	background-color: #5F6670;
 	z-index: 999;
 	padding: 0;
 	transition: background-color .8s;
@@ -184,12 +195,12 @@ h1 .logo {
 }
 
 
-.twitter:hover {
+.linkedin:hover {
 	background-color: #2E151B;
 	transition: background-color .4s;
 }
 
-.linkedin:hover {
+.github:hover {
 	background-color: #2E151B;
 	transition: background-color .4s;
 }
@@ -230,7 +241,7 @@ h1 .logo {
 }
 
 #web-development-skills {
-	background-color: #2F4454;
+	background-color: #5F6670;
 	text-align: center;
 }
 
@@ -244,7 +255,7 @@ h1 .logo {
 } */
 
 .skills {
-	color: white;
+	color: #E1DCD9;
 }
 
 .skills li {
@@ -257,12 +268,12 @@ h1 .logo {
 }
 
 #portfolio h2 {
-	color: #b76e79;
+	color: #A67F78;
 	margin-bottom: 140px;
 }
 
 #portfolio h2:after {
-	border-bottom: 2px dashed #b76e79;
+	border-bottom: 2px dashed #A67F78;
 }
 
 #portfolio .row {
@@ -272,7 +283,7 @@ h1 .logo {
 }
 
 #portfolio .heading {
-	color: #2E151B;
+	color: #E1DCD9;
 	padding: 15px;
 	text-align: center;
 	position: absolute;
@@ -281,7 +292,7 @@ h1 .logo {
 }
 
 #portfolio .heading span {
-	color: black;
+	color: #5F6670;
 	display: block;
 	margin: 40px 0px;
 	font-size: 200%;
@@ -300,7 +311,7 @@ h1 .logo {
 }
 
 #portfolio p {
-	color: #2E151B;
+	color: #E1DCD9;
 	/*display: none;*/
 	margin-bottom: 30px;
 	line-height: 230%;
@@ -321,10 +332,10 @@ h1 .logo {
 
 .description .tools li {
 	margin-top: 5px;
-	background-color: black;
+	background-color: #F0F0F0;
 	margin-right: 10px;
 	padding: 10px;
-	color: #F0F0F0;
+	color: #5F6670;
 }
 
 #portfolio div section {
@@ -332,15 +343,15 @@ h1 .logo {
 }
 
 #portfolio div:nth-child(odd) section {
-	background-color: black;
+	background-color: #5F6670;
 	padding: 10px;
-	border: 3px solid white;
+	border: 3px solid #E1DCD9;
 }
 
 #portfolio div:nth-child(even) section {
-	background-color: black;
+	background-color: #5F6670;
 	padding: 10px;
-	border: 3px solid white;
+	border: 3px solid #E1DCD9;
 }
 
 #portfolio img {
@@ -360,7 +371,7 @@ h1 .logo {
 }
 
 #portfolio .description h4 {
-	color: white;
+	color: #E1DCD9;
 }
 
 #portfolio .heading {
@@ -388,7 +399,7 @@ h1 .logo {
 	 position: relative;
 	 top: -80px;
 	 left: -30px;
-	 color: rgba(4,14,22,.83);;
+	 color: #5F6670;
 }
 
 
@@ -413,11 +424,11 @@ h1 .logo {
 }
 
 #contact h2 {
-	color: white;
+	color: #E1DCD9;
 }
 
 #contact h2:after {
-	border-bottom: 2px dashed white;
+	border-bottom: 2px dashed #E1DCD9;
 }
 
 #contact form {
@@ -426,7 +437,7 @@ h1 .logo {
 
 #contact .form-group label {
 	display: block;
-	color: white;
+	color: rgb(161, 146, 146);
 	font-weight: normal;
 }
 
@@ -435,7 +446,7 @@ h1 .logo {
 	border: 0;
 	padding: 9px;
 	background-color: #2b2b2b;
-	color: white;
+	color: #E1DCD9;
 }
 
 #contact .form-group input#emailTXT {
@@ -455,12 +466,12 @@ h1 .logo {
 }
 
 #contact #submitBTN {
-	color: white;
+	color: #E1DCD9;
 }
 
 #contact #submitBTN:hover {
-	background-color: white;
-	color: black;
+	background-color: #E1DCD9;
+	color: #5F6670;
 	transition: background-color .4s;
 }
 
@@ -608,7 +619,7 @@ h1 .logo {
 	#portfolio section:hover .overlay .heading {
 	 position: relative;
 	 top: -0px;
-	 color: white;
+	 color: #E1DCD9;
 	 -webkit-transition: none;
 	}
 
